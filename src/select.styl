@@ -1,0 +1,52 @@
+/* alice.select 样式模块 */
+
+// mixin
+linear-gradient(from, to)
+  background -webkit-linear-gradient(top, from, to)
+  background -moz-linear-gradient(top, from, to)
+  filter unquote('progid:DXImageTransform.Microsoft.Gradient(startColorstr=' + from + ', endColorstr=' + to + ')')
+
+.ui-select
+  display: inline-block
+  *display: inline
+  *zoom: 1
+  a
+    color: #7D7D7D
+    font-size: 12px
+
+a.ui-select-trigger
+  position: relative
+  display: inline-block
+  *display: inline
+  *zoom: 1
+  width: 98%
+  border: 1px solid #CCCCCC
+  height: 30px
+  line-height: 30px
+  text-indent: 10px
+  linear-gradient(#FBFBFB, #F3F3F3)
+  i
+    position: absolute
+    top: 0px
+    right: 10px
+    line-height: 28px
+    text-indent: 0
+    font-size: 14px
+    cursor: pointer
+  &:hover
+    border: 1px solid #999999
+
+.ui-select-content
+  width: 98%
+  margin: -1px 0 0
+  padding: 0
+  background: #fff
+  list-style: none
+  border: 1px solid #CCCCCC
+
+.ui-select-item a
+  display: block
+  padding: 7px 0
+  text-indent: 10px
+  &:hover
+    background: #F2F2F2

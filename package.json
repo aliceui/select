@@ -1,0 +1,22 @@
+{
+    "name": "select",
+    "version": "1.0.0",
+    "root": "alice",
+    "description": "下拉框和自动补全的样式",
+    "homepage": "",
+    "author": "popomore <sakura9515@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aliceui/select.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aliceui/select/issue"
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "tests": ["select"],
+    "output": {
+        "select.css": "."
+    }
+}
