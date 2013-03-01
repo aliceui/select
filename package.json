@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "root": "alice",
     "description": "下拉框和自动补全的样式",
+    "keywords": [
+        "下拉框"
+    ],
     "homepage": "",
     "author": "popomore <sakura9515@gmail.com>",
     "repository": {
