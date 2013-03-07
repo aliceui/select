@@ -1,3 +1,5 @@
+
+/** alice/select/1.0.0/select.css **/
 /* alice.select 样式模块 */
 .ui-select {
   display: inline-block;
@@ -48,7 +50,9 @@ a.ui-select-trigger:hover {
   text-indent: 10px;
   text-decoration: underline;
 }
-.ui-select-item a:hover,
+.ui-select-item a:hover {
+  background: #f2f2f2;
+}
 .ui-select-item-hover a {
   background: #f2f2f2;
 }
