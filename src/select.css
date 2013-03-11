@@ -7,6 +7,10 @@
 .ui-select a {
   color: #7d7d7d;
   font-size: 12px;
+  text-decoration: none;
+}
+.ui-select a:hover {
+  text-decoration: none;
 }
 a.ui-select-trigger {
   position: relative;
@@ -46,9 +50,10 @@ a.ui-select-trigger:hover {
   display: block;
   padding: 7px 0;
   text-indent: 10px;
-  text-decoration: underline;
 }
-.ui-select-item a:hover,
+.ui-select-item a:hover {
+  background: #f2f2f2;
+}
 .ui-select-item-hover a {
   background: #f2f2f2;
 }
