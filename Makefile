@@ -1,11 +1,5 @@
 THEME = $(HOME)/.spm/themes/alice
 
-install:
-	@npm install stylus nib -g
-
-build-styl:
-	@stylus -u nib src/*.styl src/
-
 build-doc:
 	@nico build -v -C $(THEME)/nico.js
 
@@ -19,11 +13,11 @@ watch:
 	@nico server -C $(THEME)/nico.js --watch
 
 publish: clean build-doc
-	@ghp-import _site
-	@git push origin gh-pages
+	@spm publish --doc _site
 
 clean:
 	@rm -fr _site
+
 
 reporter = spec
 url = tests/runner.html
