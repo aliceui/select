@@ -8,7 +8,7 @@
 
 ## 演示
 
-<link type="text/css" rel="stylesheet" media="screen" href="src/select.css">
+<link type="text/css" rel="stylesheet" media="screen" href="dist/select.css">
 
 ### 下拉框
 
