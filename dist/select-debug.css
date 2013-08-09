@@ -1,19 +1,21 @@
-/*! define alice/select/1.0.0/select-debug.css */
+/*! define select-debug.css */
 /* alice.select 样式模块 */
 .ui-select {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
-.ui-select a {
+.ui-select a,
+.ui-select .ui-select-trigger {
   color: #7d7d7d;
   font-size: 12px;
   text-decoration: none;
 }
-.ui-select a:hover {
+.ui-select a:hover,
+.ui-select .ui-select-trigger:hover {
   text-decoration: none;
 }
-a.ui-select-trigger {
+.ui-select-trigger {
   position: relative;
   display: inline-block;
   *display: inline;
@@ -27,7 +29,7 @@ a.ui-select-trigger {
   background: -moz-linear-gradient(top, #fbfbfb, #f3f3f3);
   filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#fbfbfb, endColorstr=#f3f3f3);
 }
-a.ui-select-trigger i {
+.ui-select-trigger i {
   position: absolute;
   top: 0px;
   right: 10px;
@@ -36,7 +38,7 @@ a.ui-select-trigger i {
   font-size: 14px;
   cursor: pointer;
 }
-a.ui-select-trigger:hover {
+.ui-select-trigger:hover {
   border: 1px solid #999;
 }
 .ui-select-content {
