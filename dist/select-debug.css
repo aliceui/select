@@ -6,13 +6,13 @@
   *zoom: 1;
 }
 .ui-select a,
-.ui-select .ui-select-trigger {
+.ui-select-trigger {
   color: #7d7d7d;
   font-size: 12px;
   text-decoration: none;
 }
 .ui-select a:hover,
-.ui-select .ui-select-trigger:hover {
+.ui-select-trigger:hover {
   text-decoration: none;
 }
 .ui-select-trigger {
