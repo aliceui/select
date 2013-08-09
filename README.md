@@ -26,3 +26,18 @@
 </div>
 ````
 
+### trigger 在外面的下拉框
+
+````html
+<a href="#" class="ui-select-trigger" style="display:block; width: 98px">
+  默认选项
+  <i class="iconfont" title="下三角形">&#xF03C;</i>
+</a>
+<div class="ui-select" style="width: 100px">
+  <ul class="ui-select-content">
+    <li class="ui-select-item"><a href="#">选项 1</a></li>
+    <li class="ui-select-item"><a href="#">选项 2</a></li>
+    <li class="ui-select-item"><a href="#">选项 3</a></li>
+  </ul>
+</div>
+````
