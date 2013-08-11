@@ -4,6 +4,8 @@
   display: inline-block;
   *display: inline;
   *zoom: 1;
+  background: #fff;
+  border: 1px solid #ccc;
 }
 .ui-select a,
 .ui-select-trigger {
@@ -42,12 +44,9 @@
   border: 1px solid #999;
 }
 .ui-select-content {
-  width: 98%;
   margin: -1px 0 0;
   padding: 0;
-  background: #fff;
   list-style: none;
-  border: 1px solid #ccc;
 }
 .ui-select-item a {
   display: block;
