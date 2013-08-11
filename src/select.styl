@@ -6,13 +6,7 @@ linear-gradient(from, to)
   background -moz-linear-gradient(top, from, to)
   filter unquote('progid:DXImageTransform.Microsoft.Gradient(startColorstr=' + from + ', endColorstr=' + to + ')')
 
-.ui-select
-  display: inline-block
-  *display: inline
-  *zoom: 1
-  background: #fff
-  border: 1px solid #CCCCCC
-
+// reset link
 .ui-select a,
 .ui-select-trigger
   color: #7D7D7D
@@ -21,6 +15,29 @@ linear-gradient(from, to)
   &:hover
     text-decoration: none
 
+// overlay
+.ui-select
+  display: inline-block
+  *display: inline
+  *zoom: 1
+  background: #fff
+  border: 1px solid #CCCCCC
+
+.ui-select-content
+  margin: -1px 0 0
+  padding: 0
+  list-style: none
+
+.ui-select-item a
+  display: block
+  padding: 7px 0
+  text-indent: 10px
+
+.ui-select-item a:hover,
+.ui-select-item-hover a
+    background: #F2F2F2
+
+// trigger
 .ui-select-trigger
   position: relative
   display: inline-block
@@ -42,18 +59,3 @@ linear-gradient(from, to)
     cursor: pointer
   &:hover
     border: 1px solid #999999
-
-.ui-select-content
-  margin: -1px 0 0
-  padding: 0
-  list-style: none
-
-.ui-select-item a
-  display: block
-  padding: 7px 0
-  text-indent: 10px
-  &:hover
-    background: #F2F2F2
-
-.ui-select-item-hover a
-    background: #F2F2F2
