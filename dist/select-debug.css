@@ -1,12 +1,5 @@
 /*! define select-debug.css */
 /* alice.select 样式模块 */
-.ui-select {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  background: #fff;
-  border: 1px solid #ccc;
-}
 .ui-select a,
 .ui-select-trigger {
   color: #7d7d7d;
@@ -16,6 +9,34 @@
 .ui-select a:hover,
 .ui-select-trigger:hover {
   text-decoration: none;
+}
+.ui-select {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: #fff;
+}
+.ui-select-content {
+  margin: -1px 0 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+}
+.ui-select-item a {
+  display: block;
+  padding: 7px 0;
+  text-indent: 10px;
+}
+.ui-select-item a:hover,
+.ui-select-item-hover a {
+  background: #f2f2f2;
+}
+.ui-select-disabled a {
+  cursor: not-allowed;
+  color: #ccc;
+}
+.ui-select-disabled a:hover {
+  background: #fff;
 }
 .ui-select-trigger {
   position: relative;
@@ -42,20 +63,4 @@
 }
 .ui-select-trigger:hover {
   border: 1px solid #999;
-}
-.ui-select-content {
-  margin: -1px 0 0;
-  padding: 0;
-  list-style: none;
-}
-.ui-select-item a {
-  display: block;
-  padding: 7px 0;
-  text-indent: 10px;
-}
-.ui-select-item a:hover {
-  background: #f2f2f2;
-}
-.ui-select-item-hover a {
-  background: #f2f2f2;
 }
