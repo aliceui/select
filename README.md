@@ -28,6 +28,8 @@
 
 ### 其他 DOM 结构
 
+li 中可以没有 a，`ui-select-content` 也可以增加一个 DOM 结构
+
 ````html
 <div class="ui-select" style="width: 100px">
   <a href="#" class="ui-select-trigger">
@@ -36,9 +38,9 @@
   </a>
   <div class="ui-select-content">
     <ul>
-      <li class="ui-select-item"><a href="#">选项 1</a></li>
-      <li class="ui-select-item ui-select-disabled"><a href="#">选项 2</a></li>
-      <li class="ui-select-item"><a href="#">选项 3</a></li>
+      <li class="ui-select-item">选项 1</li>
+      <li class="ui-select-item ui-select-disabled">选项 2</li>
+      <li class="ui-select-item">选项 3</li>
     </ul>
   </div>
 </div>

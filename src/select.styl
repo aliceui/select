@@ -21,6 +21,7 @@ linear-gradient(from, to)
   *display: inline
   *zoom: 1
   background: #fff
+  color: #7D7D7D
 
 .ui-select-content
   margin: -1px 0 0
@@ -30,16 +31,19 @@ linear-gradient(from, to)
   ul
     list-style: none
     padding: 0
-    margin: 0;
+    margin: 0
 
-.ui-select-item a
+.ui-select-item
   display: block
   padding: 7px 10px
+  cursor: pointer
+  font-size: 12px
 
-.ui-select-item a:hover,
-.ui-select-item-hover a
+.ui-select-item:hover,
+.ui-select-item-hover
   background: #F2F2F2
 
+.ui-select-disabled
 .ui-select-disabled a
   cursor: not-allowed
   color: #ccc
