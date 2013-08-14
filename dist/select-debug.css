@@ -15,6 +15,7 @@
   *display: inline;
   *zoom: 1;
   background: #fff;
+  color: #7d7d7d;
 }
 .ui-select-content {
   margin: -1px 0 0;
@@ -27,18 +28,22 @@
   padding: 0;
   margin: 0;
 }
-.ui-select-item a {
+.ui-select-item {
   display: block;
   padding: 7px 10px;
+  cursor: pointer;
+  font-size: 12px;
 }
-.ui-select-item a:hover,
-.ui-select-item-hover a {
+.ui-select-item:hover,
+.ui-select-item-hover {
   background: #f2f2f2;
 }
+.ui-select-disabled,
 .ui-select-disabled a {
   cursor: not-allowed;
   color: #ccc;
 }
+.ui-select-disabled:hover,
 .ui-select-disabled a:hover {
   background: #fff;
 }
