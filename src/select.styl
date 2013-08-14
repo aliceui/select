@@ -21,12 +21,12 @@ linear-gradient(from, to)
   *display: inline
   *zoom: 1
   background: #fff
-  border: 1px solid #CCCCCC
 
 .ui-select-content
   margin: -1px 0 0
   padding: 0
   list-style: none
+  border: 1px solid #CCCCCC
 
 .ui-select-item a
   display: block
@@ -35,7 +35,13 @@ linear-gradient(from, to)
 
 .ui-select-item a:hover,
 .ui-select-item-hover a
-    background: #F2F2F2
+  background: #F2F2F2
+
+.ui-select-disabled a
+  cursor: not-allowed
+  color: #ccc
+  &:hover
+    background: #fff
 
 // trigger
 .ui-select-trigger

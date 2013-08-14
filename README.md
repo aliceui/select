@@ -20,7 +20,7 @@
   </a>
   <ul class="ui-select-content">
     <li class="ui-select-item"><a href="#">选项 1</a></li>
-    <li class="ui-select-item"><a href="#">选项 2</a></li>
+    <li class="ui-select-item ui-select-disabled"><a href="#">选项 2</a></li>
     <li class="ui-select-item"><a href="#">选项 3</a></li>
   </ul>
 </div>
@@ -36,7 +36,7 @@
 <div class="ui-select" style="width: 100px">
   <ul class="ui-select-content">
     <li class="ui-select-item"><a href="#">选项 1</a></li>
-    <li class="ui-select-item"><a href="#">选项 2</a></li>
+    <li class="ui-select-item ui-select-disabled"><a href="#">选项 2</a></li>
     <li class="ui-select-item"><a href="#">选项 3</a></li>
   </ul>
 </div>
