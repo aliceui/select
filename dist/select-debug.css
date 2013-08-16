@@ -33,6 +33,9 @@
   padding: 7px 10px;
   cursor: pointer;
   font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .ui-select-item:hover,
 .ui-select-item-hover {

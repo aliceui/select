@@ -40,7 +40,7 @@ li 中可以没有 a，`ui-select-content` 也可以增加一个 DOM 结构
     <ul>
       <li class="ui-select-item">选项 1</li>
       <li class="ui-select-item ui-select-disabled">选项 2</li>
-      <li class="ui-select-item">选项 3</li>
+      <li class="ui-select-item">选项 3过长过长过长</li>
     </ul>
   </div>
 </div>
