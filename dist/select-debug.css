@@ -3,7 +3,7 @@
 .ui-select a,
 .ui-select-trigger {
   color: #7d7d7d;
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
 }
 .ui-select a:hover,
@@ -16,6 +16,7 @@
   *zoom: 1;
   background: #fff;
   color: #7d7d7d;
+  font-size: 14px;
 }
 .ui-select-content {
   margin: -1px 0 0;
@@ -32,11 +33,9 @@
 }
 .ui-select-item {
   display: block;
-  padding: 7px 10px;
+  padding: 10px 15px;
   cursor: pointer;
-  font-size: 12px;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 .ui-select-item:hover,
@@ -54,14 +53,11 @@
 }
 .ui-select-trigger {
   position: relative;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  width: 98%;
+  display: block;
   border: 1px solid #ccc;
   height: 30px;
   line-height: 30px;
-  text-indent: 10px;
+  text-indent: 15px;
   background: -webkit-linear-gradient(top, #fbfbfb, #f3f3f3);
   background: -moz-linear-gradient(top, #fbfbfb, #f3f3f3);
   filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#fbfbfb, endColorstr=#f3f3f3);
@@ -69,7 +65,7 @@
 .ui-select-trigger i {
   position: absolute;
   top: 0px;
-  right: 10px;
+  right: 15px;
   line-height: 28px;
   text-indent: 0;
   font-size: 14px;
