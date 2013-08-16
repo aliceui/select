@@ -42,18 +42,20 @@
 .ui-select-item-hover {
   background: #f2f2f2;
 }
-.ui-select-disabled,
-.ui-select-disabled a {
+.ui-select-item-disabled,
+.ui-select-item-disabled a {
   cursor: not-allowed;
   color: #ccc;
 }
-.ui-select-disabled:hover,
-.ui-select-disabled a:hover {
+.ui-select-item-disabled:hover,
+.ui-select-item-disabled a:hover {
   background: #fff;
 }
 .ui-select-trigger {
   position: relative;
-  display: block;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
   border: 1px solid #ccc;
   height: 30px;
   line-height: 30px;
@@ -73,4 +75,12 @@
 }
 .ui-select-trigger:hover {
   border: 1px solid #999;
+}
+.ui-select .ui-select-trigger {
+  display: block;
+}
+.ui-select-disabled,
+.ui-select .ui-select-disabled {
+  color: #aaa;
+  cursor: not-allowed;
 }

@@ -47,8 +47,8 @@ linear-gradient(from, to)
 .ui-select-item-hover
   background: #F2F2F2
 
-.ui-select-disabled
-.ui-select-disabled a
+.ui-select-item-disabled
+.ui-select-item-disabled a
   cursor: not-allowed
   color: #ccc
   &:hover
@@ -57,7 +57,9 @@ linear-gradient(from, to)
 // trigger
 .ui-select-trigger
   position: relative
-  display: block
+  display:inline-block
+  *display: inline
+  *zoom: 1
   border: 1px solid #CCCCCC
   height: 30px
   line-height: 30px
@@ -73,3 +75,12 @@ linear-gradient(from, to)
     cursor: pointer
   &:hover
     border: 1px solid #999999
+
+// 外面有一层容器，需要撑满
+.ui-select .ui-select-trigger
+  display: block
+
+.ui-select-disabled
+.ui-select .ui-select-disabled
+  color: #aaa
+  cursor: not-allowed

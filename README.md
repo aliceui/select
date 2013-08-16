@@ -25,20 +25,20 @@
   </a>
   <ul class="ui-select-content">
     <li class="ui-select-item"><a href="#">选项 1</a></li>
-    <li class="ui-select-item ui-select-disabled"><a href="#">选项 2</a></li>
+    <li class="ui-select-item ui-select-item-disabled"><a href="#">选项 2</a></li>
     <li class="ui-select-item"><a href="#">选项 3</a></li>
   </ul>
 </div>
 <div class="ui-select" style="width: 120px">
-  <a href="#" class="ui-select-trigger">
+  <a href="#" class="ui-select-trigger ui-select-disabled">
     默认选项
     <i class="iconfont" title="下三角形">&#xF03C;</i>
   </a>
   <div class="ui-select-content">
     <ul>
       <li class="ui-select-item">选项 1</li>
-      <li class="ui-select-item ui-select-disabled">选项 2</li>
-      <li class="ui-select-item">选项 3过长过长过长</li>
+      <li class="ui-select-item ui-select-item-disabled">选项 2</li>
+      <li class="ui-select-item">选项 3</li>
     </ul>
   </div>
 </div>
@@ -53,8 +53,8 @@
 </a>
 <div class="ui-select" style="width: 120px">
   <ul class="ui-select-content">
-    <li class="ui-select-item"><a href="#">选项 1</a></li>
-    <li class="ui-select-item ui-select-disabled"><a href="#">选项 2</a></li>
+    <li class="ui-select-item"><a href="#">选项 1过长过长过长</a></li>
+    <li class="ui-select-item ui-select-item-disabled"><a href="#">选项 2</a></li>
     <li class="ui-select-item"><a href="#">选项 3</a></li>
   </ul>
 </div>
