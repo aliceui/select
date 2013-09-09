@@ -1,6 +1,6 @@
 {
     "name": "select",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "family": "alice",
     "description": "下拉框和自动补全的样式",
     "keywords": [
