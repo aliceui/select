@@ -25,6 +25,7 @@
   height: 100%;
   list-style: none;
   border: 1px solid #ccc;
+  _float: left;
 }
 .ui-select-content ul {
   list-style: none;
