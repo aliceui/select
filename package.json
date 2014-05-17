@@ -1,24 +1,21 @@
 {
-    "name": "select",
-    "version": "1.0.2",
-    "family": "alice",
-    "description": "下拉框和自动补全的样式",
-    "keywords": [
-        "下拉框"
-    ],
-    "homepage": "http://aliceui.org/select",
-    "author": "popomore <sakura9515@gmail.com>",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aliceui/select.git"
-    },
-    "bugs": {
-        "url": "https://github.com/aliceui/select/issue"
-    },
-    "license": "MIT",
-    "spm": {
-        "alias": {
-        },
-        "output": ["select.css"]
-    }
+  "name": "alice-select",
+  "version": "1.1.0",
+  "description": "下拉框和自动补全的样式",
+  "keywords": [
+    "下拉框"
+  ],
+  "homepage": "http://aliceui.org/select",
+  "author": "popomore <sakura9515@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliceui/select.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliceui/select/issue"
+  },
+  "license": "MIT",
+  "spm": {
+    "main": "dist/select-debug.css"
+  }
 }
