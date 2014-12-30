@@ -21,8 +21,8 @@
     url("https://i.alipayobjects.com/common/fonts/rei.svg?20140611#rei") format("svg"); /* iOS 4.1- */
 }
 
-.nico-insert-code .iconfont {
-  font-family:"rei"!important;
+.iconfont {
+  font-family:"rei";
   font-style: normal!important;
   font-weight: normal;
   cursor: default;
