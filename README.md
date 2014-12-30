@@ -8,9 +8,9 @@
 
 ## 演示
 
-<link type="text/css" rel="stylesheet" media="screen" href="dist/select.css">
 
 `````html
+<link rel="stylesheet" href="dist/select.css">
 <style>
 @font-face {
     font-family: "rei";
