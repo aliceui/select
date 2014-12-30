@@ -10,6 +10,27 @@
 
 <link type="text/css" rel="stylesheet" media="screen" href="dist/select.css">
 
+`````html
+<style>
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140611"); /* IE9 */
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140611#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://i.alipayobjects.com/common/fonts/rei.woff?20140611") format("woff"), /* chrome 6+銆乫irefox 3.6+銆丼afari5.1+銆丱pera 11+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20140611")  format("truetype"), /* chrome銆乫irefox銆乷pera銆丼afari, Android, iOS 4.2+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.svg?20140611#rei") format("svg"); /* iOS 4.1- */
+}
+
+.nico-insert-code .iconfont {
+  font-family:"rei"!important;
+  font-style: normal!important;
+  font-weight: normal;
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+}
+</style>
+`````
+
 ### 下拉框
 
 支持不同结构
